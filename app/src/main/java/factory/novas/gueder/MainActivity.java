@@ -25,26 +25,22 @@ public class MainActivity extends AppCompatActivity {
         //setOnClickListener-> Hacer que un botón llame a un método. Necesita algo que llamar cuando se pulse el botón.
         //Le decimos que pasa cuando se pulsa el botón.
         //Para eso le pasamos una instancia de alguien que implementa la interfaz OnclickListener
-        change2AmericanBtn.setOnClickListener(new Change2AmericanSystemListener());
+        //Clase anónima.
+        change2AmericanBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                changeToAmericanSystem(v);
+
+            }
+        });
 
 
     }
 
-    public void change2AmericanBtn(View view){
+    public void changeToAmericanSystem(View view){
 
         Log.v(MainActivity.TAG, "Llamo al change2AmericanSystem");
-
-    }
-
-}
-
-class Change2AmericanSystemListener implements View.OnClickListener{
-
-
-    @Override
-    public void onClick(View view) {
-
-        Log.v("Listener", "Llamo al change2AmericanSystem");
 
     }
 
