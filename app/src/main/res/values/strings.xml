@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Gueder</string>
     <string name="hello_world">Etiqueta perruna</string>
+    <string name="offline_weather">Offline Weather</string>
 </resources>

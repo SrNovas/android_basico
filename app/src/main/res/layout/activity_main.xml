@@ -18,6 +18,7 @@
         android:id="@+id/textView"/>
 
     <ImageView
+        android:contentDescription="@string/offline_weather"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/offline_weather"/>
