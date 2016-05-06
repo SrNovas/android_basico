@@ -28,8 +28,8 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/american_system"
-        android:id="@+id/button"
+        android:text="@string/change_american_system"
+        android:id="@+id/change_to_american_btn"
         android:layout_gravity="center_horizontal"
         android:layout_weight="0"/>
 </LinearLayout>

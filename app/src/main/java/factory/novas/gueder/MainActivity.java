@@ -3,6 +3,8 @@ package factory.novas.gueder;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -16,5 +18,34 @@ public class MainActivity extends AppCompatActivity {
         //Muestro mi primero LOG, V de verbose.
         Log.v(MainActivity.TAG, "ola k ase?");
 
+        //Asociamos el controlador con la vista a través del identificador.
+        //Tengo que hacer un CAST, ello se hace con (Button).
+        Button change2AmericanBtn = (Button) findViewById(R.id.change_to_american_btn);
+
+        //setOnClickListener-> Hacer que un botón llame a un método. Necesita algo que llamar cuando se pulse el botón.
+        //Le decimos que pasa cuando se pulsa el botón.
+        //Para eso le pasamos una instancia de alguien que implementa la interfaz OnclickListener
+        change2AmericanBtn.setOnClickListener(new Change2AmericanSystemListener());
+
+
     }
+
+    public void change2AmericanBtn(View view){
+
+        Log.v(MainActivity.TAG, "Llamo al change2AmericanSystem");
+
+    }
+
+}
+
+class Change2AmericanSystemListener implements View.OnClickListener{
+
+
+    @Override
+    public void onClick(View view) {
+
+        Log.v("Listener", "Llamo al change2AmericanSystem");
+
+    }
+
 }
