@@ -2,5 +2,6 @@
     <string name="app_name">Gueder</string>
     <string name="hello_world">Etiqueta perruna</string>
     <string name="offline_weather">Offline Weather</string>
-    <string name="change_american_system">CAMBIAR SISTEMA AMERICANO</string>
+    <string name="change_american_system">CAMBIAR A SISTEMA AMERICANO</string>
+    <string name="change_european_system">CAMBIAR A SISTEMA EUROPEO</string>
 </resources>

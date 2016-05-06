@@ -5,10 +5,14 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = "MainActivity";
+
+    //Implicitamente hace un forecastImage = NULL.
+    private ImageView forecastImage;
 
     @Override //Esto es una anotación, indica que implementamos un método que ya existe.
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,9 +22,13 @@ public class MainActivity extends AppCompatActivity {
         //Muestro mi primero LOG, V de verbose.
         Log.v(MainActivity.TAG, "ola k ase?");
 
+        //Accedemos al ImageView a través de su id. El final hace que no pueda ser modificado.
+        forecastImage = (ImageView) findViewById(R.id.forecast_image);
+
         //Asociamos el controlador con la vista a través del identificador.
         //Tengo que hacer un CAST, ello se hace con (Button).
         Button change2AmericanBtn = (Button) findViewById(R.id.change_to_american_btn);
+        Button change2EuropeanBtn = (Button) findViewById(R.id.change_to_european_btn);
 
         //setOnClickListener-> Hacer que un botón llame a un método. Necesita algo que llamar cuando se pulse el botón.
         //Le decimos que pasa cuando se pulsa el botón.
@@ -35,12 +43,36 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        //Hacemos lo propio con el botón europeo.
+        change2EuropeanBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                changeToEuropeanSystem(v);
+
+            }
+
+        });
 
     }
+
+
 
     public void changeToAmericanSystem(View view){
 
         Log.v(MainActivity.TAG, "Llamo al change2AmericanSystem");
+
+        //Esto hace un cambio de imagen a la pasada por parámetro.
+        forecastImage.setImageResource(R.drawable.offline_weather);
+
+    }
+
+    public void changeToEuropeanSystem(View view){
+
+        Log.v(MainActivity.TAG, "Llamo al change2EuropeanSystem");
+
+        //Esto hace un cambio de imagen a la pasada por parámetro.
+        forecastImage.setImageResource(R.drawable.offline_weather2);
 
     }
 
