@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
     private static final String TAG = "MainActivity";
 
@@ -34,29 +34,35 @@ public class MainActivity extends AppCompatActivity {
         //Le decimos que pasa cuando se pulsa el botón.
         //Para eso le pasamos una instancia de alguien que implementa la interfaz OnclickListener
         //Clase anónima.
-        change2AmericanBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                changeToAmericanSystem(v);
-
-            }
-        });
+        // Para llamar al OnClick de esta instancia uso el this, tengo que hacer un implements
+        //de OnClickListener
+        change2AmericanBtn.setOnClickListener(this);
 
         //Hacemos lo propio con el botón europeo.
-        change2EuropeanBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                changeToEuropeanSystem(v);
-
-            }
-
-        });
+        change2EuropeanBtn.setOnClickListener(this);
 
     }
 
+    @Override
+    public void onClick(View v) {
 
+        switch(v.getId()){
+
+            case R.id.change_to_american_btn:
+
+                changeToAmericanSystem(v);
+
+                break;
+
+            case R.id.change_to_european_btn:
+
+                changeToEuropeanSystem(v);
+
+                break;
+
+        }
+
+    }
 
     public void changeToAmericanSystem(View view){
 
