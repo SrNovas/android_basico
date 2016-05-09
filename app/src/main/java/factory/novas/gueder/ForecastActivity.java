@@ -31,10 +31,10 @@ public class ForecastActivity extends AppCompatActivity {
         Forecast forecast = new Forecast(45, 14, 10, "Paece que está nublo", R.drawable.sun_cloud);
 
         //Muestro en la interfaz mi modelo.
-        mMaxTemp.setText(String.valueOf(forecast.getMaxTemp()));
-        mMinTemp.setText(String.valueOf(forecast.getMinTemp()));
-        mHumidity.setText(String.valueOf(forecast.getHumidity()));
-        mDescription.setText(String.valueOf(forecast.getDescription()));
+        mMaxTemp.setText(String.format(getString(R.string.max_temp_label), forecast.getMaxTemp()));
+        mMinTemp.setText(String.format(getString(R.string.min_temp_label), forecast.getMinTemp()));
+        mHumidity.setText(String.format(getString(R.string.humidity_label),forecast.getHumidity()));
+        mDescription.setText(forecast.getDescription());
         mForecastImage.setImageResource(forecast.getIcon());
 
     }
