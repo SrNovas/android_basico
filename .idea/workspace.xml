@@ -65,17 +65,16 @@
       <file leaf-file-name="activity_forecast.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_forecast.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.2452831">
-              <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+            <state vertical-scroll-proportion="-5.792453">
+              <caret line="53" column="35" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
               <folding>
-                <element signature="e#274#307#0" expanded="true" />
-                <element signature="e#332#367#0" expanded="true" />
-                <element signature="e#393#428#0" expanded="true" />
-                <element signature="e#452#485#0" expanded="true" />
-                <element signature="e#685#706#0" expanded="true" />
-                <element signature="e#870#895#0" expanded="true" />
-                <element signature="e#1241#1273#0" expanded="true" />
-                <element signature="e#1297#1329#0" expanded="true" />
+                <element signature="e#276#309#0" expanded="true" />
+                <element signature="e#334#369#0" expanded="true" />
+                <element signature="e#395#430#0" expanded="true" />
+                <element signature="e#454#487#0" expanded="true" />
+                <element signature="e#1036#1060#0" expanded="true" />
+                <element signature="e#1243#1267#0" expanded="true" />
+                <element signature="e#1450#1474#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -94,10 +93,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ForecastActivity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ForecastActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/factory/novas/gueder/ForecastActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="0.11619048">
               <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -108,10 +107,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.20958084">
+            <state vertical-scroll-proportion="-4.375">
               <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
               <folding />
             </state>
@@ -1758,12 +1757,13 @@
         <option value="$PROJECT_DIR$/app/src/main/java/factory/novas/gueder/Forecast.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/factory/novas/gueder/forecast_activity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/factory/novas/gueder/ForecastActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_forecast.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="29" />
-    <option name="y" value="53" />
+    <option name="x" value="36" />
+    <option name="y" value="25" />
     <option name="width" value="1260" />
     <option name="height" value="669" />
   </component>
@@ -1963,6 +1963,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gueder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gueder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drawable" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2349,7 +2379,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="29" y="53" width="1260" height="669" extended-state="0" />
+    <frame x="36" y="25" width="1260" height="669" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2408,14 +2438,13 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="33" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="33" />
           <folding>
-            <element signature="e#274#307#0" expanded="true" />
-            <element signature="e#332#367#0" expanded="true" />
-            <element signature="e#393#428#0" expanded="true" />
-            <element signature="e#452#485#0" expanded="true" />
-            <element signature="e#685#706#0" expanded="true" />
-            <element signature="e#870#895#0" expanded="true" />
-            <element signature="e#1241#1273#0" expanded="true" />
-            <element signature="e#1297#1329#0" expanded="true" />
+            <element signature="e#276#309#0" expanded="true" />
+            <element signature="e#334#369#0" expanded="true" />
+            <element signature="e#395#430#0" expanded="true" />
+            <element signature="e#454#487#0" expanded="true" />
+            <element signature="e#1036#1060#0" expanded="true" />
+            <element signature="e#1243#1267#0" expanded="true" />
+            <element signature="e#1450#1474#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2436,14 +2465,13 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="33" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="33" />
           <folding>
-            <element signature="e#274#307#0" expanded="true" />
-            <element signature="e#332#367#0" expanded="true" />
-            <element signature="e#393#428#0" expanded="true" />
-            <element signature="e#452#485#0" expanded="true" />
-            <element signature="e#685#706#0" expanded="true" />
-            <element signature="e#870#895#0" expanded="true" />
-            <element signature="e#1241#1273#0" expanded="true" />
-            <element signature="e#1297#1329#0" expanded="true" />
+            <element signature="e#276#309#0" expanded="true" />
+            <element signature="e#334#369#0" expanded="true" />
+            <element signature="e#395#430#0" expanded="true" />
+            <element signature="e#454#487#0" expanded="true" />
+            <element signature="e#1036#1060#0" expanded="true" />
+            <element signature="e#1243#1267#0" expanded="true" />
+            <element signature="e#1450#1474#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2456,14 +2484,13 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
           <folding>
-            <element signature="e#274#307#0" expanded="true" />
-            <element signature="e#332#367#0" expanded="true" />
-            <element signature="e#393#428#0" expanded="true" />
-            <element signature="e#452#485#0" expanded="true" />
-            <element signature="e#685#706#0" expanded="true" />
-            <element signature="e#870#895#0" expanded="true" />
-            <element signature="e#1241#1273#0" expanded="true" />
-            <element signature="e#1297#1329#0" expanded="true" />
+            <element signature="e#276#309#0" expanded="true" />
+            <element signature="e#334#369#0" expanded="true" />
+            <element signature="e#395#430#0" expanded="true" />
+            <element signature="e#454#487#0" expanded="true" />
+            <element signature="e#1036#1060#0" expanded="true" />
+            <element signature="e#1243#1267#0" expanded="true" />
+            <element signature="e#1450#1474#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2476,14 +2503,13 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
           <folding>
-            <element signature="e#274#307#0" expanded="true" />
-            <element signature="e#332#367#0" expanded="true" />
-            <element signature="e#393#428#0" expanded="true" />
-            <element signature="e#452#485#0" expanded="true" />
-            <element signature="e#685#706#0" expanded="true" />
-            <element signature="e#870#895#0" expanded="true" />
-            <element signature="e#1241#1273#0" expanded="true" />
-            <element signature="e#1297#1329#0" expanded="true" />
+            <element signature="e#276#309#0" expanded="true" />
+            <element signature="e#334#369#0" expanded="true" />
+            <element signature="e#395#430#0" expanded="true" />
+            <element signature="e#454#487#0" expanded="true" />
+            <element signature="e#1036#1060#0" expanded="true" />
+            <element signature="e#1243#1267#0" expanded="true" />
+            <element signature="e#1450#1474#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2496,14 +2522,13 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
           <folding>
-            <element signature="e#274#307#0" expanded="true" />
-            <element signature="e#332#367#0" expanded="true" />
-            <element signature="e#393#428#0" expanded="true" />
-            <element signature="e#452#485#0" expanded="true" />
-            <element signature="e#685#706#0" expanded="true" />
-            <element signature="e#870#895#0" expanded="true" />
-            <element signature="e#1241#1273#0" expanded="true" />
-            <element signature="e#1297#1329#0" expanded="true" />
+            <element signature="e#276#309#0" expanded="true" />
+            <element signature="e#334#369#0" expanded="true" />
+            <element signature="e#395#430#0" expanded="true" />
+            <element signature="e#454#487#0" expanded="true" />
+            <element signature="e#1036#1060#0" expanded="true" />
+            <element signature="e#1243#1267#0" expanded="true" />
+            <element signature="e#1450#1474#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2535,14 +2560,13 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#274#307#0" expanded="true" />
-            <element signature="e#332#367#0" expanded="true" />
-            <element signature="e#393#428#0" expanded="true" />
-            <element signature="e#452#485#0" expanded="true" />
-            <element signature="e#685#706#0" expanded="true" />
-            <element signature="e#870#895#0" expanded="true" />
-            <element signature="e#1241#1273#0" expanded="true" />
-            <element signature="e#1297#1329#0" expanded="true" />
+            <element signature="e#276#309#0" expanded="true" />
+            <element signature="e#334#369#0" expanded="true" />
+            <element signature="e#395#430#0" expanded="true" />
+            <element signature="e#454#487#0" expanded="true" />
+            <element signature="e#1036#1060#0" expanded="true" />
+            <element signature="e#1243#1267#0" expanded="true" />
+            <element signature="e#1450#1474#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2634,26 +2658,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_forecast.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2452831">
-          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
-          <folding>
-            <element signature="e#274#307#0" expanded="true" />
-            <element signature="e#332#367#0" expanded="true" />
-            <element signature="e#393#428#0" expanded="true" />
-            <element signature="e#452#485#0" expanded="true" />
-            <element signature="e#685#706#0" expanded="true" />
-            <element signature="e#870#895#0" expanded="true" />
-            <element signature="e#1241#1273#0" expanded="true" />
-            <element signature="e#1297#1329#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/factory/novas/gueder/Forecast.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2683,23 +2687,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.375">
+          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_forecast.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.792453">
+          <caret line="53" column="35" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
+          <folding>
+            <element signature="e#276#309#0" expanded="true" />
+            <element signature="e#334#369#0" expanded="true" />
+            <element signature="e#395#430#0" expanded="true" />
+            <element signature="e#454#487#0" expanded="true" />
+            <element signature="e#1036#1060#0" expanded="true" />
+            <element signature="e#1243#1267#0" expanded="true" />
+            <element signature="e#1450#1474#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/factory/novas/gueder/ForecastActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.11619048">
           <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1845#2174#0" expanded="true" />
             <element signature="e#2173#2174#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20958084">
-          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
