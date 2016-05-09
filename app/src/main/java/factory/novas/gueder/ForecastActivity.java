@@ -7,9 +7,9 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.ToggleButton;
 
-public class MainActivity extends AppCompatActivity {
+public class ForecastActivity extends AppCompatActivity {
 
-    private static final String TAG = "MainActivity";
+    private static final String TAG = "ForecastActivity";
 
     //Implicitamente hace un forecastImage = NULL.
     private ImageView forecastImage;
@@ -17,10 +17,10 @@ public class MainActivity extends AppCompatActivity {
     @Override //Esto es una anotación, indica que implementamos un método que ya existe.
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState); //Super, para llamar a la implementación de lo que ya hacía el padre. Llamamos para que se ejecute el código, además añadimos más código.
-        setContentView(R.layout.activity_main); //Carga su interfaz de activity_main.
+        setContentView(R.layout.activity_forecast); //Carga su interfaz de activity_forecast.
 
         //Muestro mi primero LOG, V de verbose.
-        Log.v(MainActivity.TAG, "ola k ase?");
+        Log.v(ForecastActivity.TAG, "ola k ase?");
 
         //Accedemos al ImageView a través de su id. El final hace que no pueda ser modificado.
         forecastImage = (ImageView) findViewById(R.id.forecast_image);
@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void changeToAmericanSystem(View view){
 
-        Log.v(MainActivity.TAG, "Llamo al change2AmericanSystem");
+        Log.v(ForecastActivity.TAG, "Llamo al change2AmericanSystem");
 
         //Esto hace un cambio de imagen a la pasada por parámetro.
         forecastImage.setImageResource(R.drawable.offline_weather);
@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void changeToEuropeanSystem(View view){
 
-        Log.v(MainActivity.TAG, "Llamo al change2EuropeanSystem");
+        Log.v(ForecastActivity.TAG, "Llamo al change2EuropeanSystem");
 
         //Esto hace un cambio de imagen a la pasada por parámetro.
         forecastImage.setImageResource(R.drawable.offline_weather2);
