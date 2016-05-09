@@ -4,10 +4,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.ToggleButton;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener{
+public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = "MainActivity";
 
@@ -26,9 +26,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         forecastImage = (ImageView) findViewById(R.id.forecast_image);
 
         //Asociamos el controlador con la vista a través del identificador.
-        //Tengo que hacer un CAST, ello se hace con (Button).
-        Button change2AmericanBtn = (Button) findViewById(R.id.change_to_american_btn);
-        Button change2EuropeanBtn = (Button) findViewById(R.id.change_to_european_btn);
+        //Tengo que hacer un CAST, ello se hace con (ToggleButton).
+        final ToggleButton forecastSystemButton = (ToggleButton) findViewById(R.id.forecast_system_btn);
 
         //setOnClickListener-> Hacer que un botón llame a un método. Necesita algo que llamar cuando se pulse el botón.
         //Le decimos que pasa cuando se pulsa el botón.
@@ -36,31 +35,22 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         //Clase anónima.
         // Para llamar al OnClick de esta instancia uso el this, tengo que hacer un implements
         //de OnClickListener
-        change2AmericanBtn.setOnClickListener(this);
+        forecastSystemButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
 
-        //Hacemos lo propio con el botón europeo.
-        change2EuropeanBtn.setOnClickListener(this);
+                if(forecastSystemButton.isChecked()) {
 
-    }
+                    changeToEuropeanSystem(v);
 
-    @Override
-    public void onClick(View v) {
+                }
+                else {
 
-        switch(v.getId()){
+                    changeToAmericanSystem(v);
 
-            case R.id.change_to_american_btn:
-
-                changeToAmericanSystem(v);
-
-                break;
-
-            case R.id.change_to_european_btn:
-
-                changeToEuropeanSystem(v);
-
-                break;
-
-        }
+                }
+            }
+        });
 
     }
 
