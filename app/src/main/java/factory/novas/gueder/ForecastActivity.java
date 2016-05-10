@@ -1,7 +1,10 @@
 package factory.novas.gueder;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -31,7 +34,47 @@ public class ForecastActivity extends AppCompatActivity {
         Forecast forecast = new Forecast(45, 14, 10, "Paece que está nublo", R.drawable.sun_cloud);
 
         setForecast(forecast);
-        
+
+    }
+
+    //Este dice como es el menú (lo busco con CTRL + O).
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+
+        //Esto estaba con el return, pero tengo que llamar primero al padre, y en el return, devolver true.
+        super.onCreateOptionsMenu(menu);
+
+        //Creo opción de menú a través de un fichero XML (menu_settings).
+
+        //Inflater, clases que nos permiten pasar de XML a código.
+        getMenuInflater().inflate(R.menu.menu_settings, menu);
+
+        return true;
+    }
+
+    //Para manejar que pasa cuando se presiona una de las opciones de menú.
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+
+        //Devuelve la llamada a super.
+        boolean superReturn = super.onOptionsItemSelected(item);
+
+        //Si presiono la opcion menu_show_settings, lanzamos SettingsActivity.
+        if(item.getItemId() == R.id.menu_show_settings) {
+
+            //Intent crea un evento, con ello saco la actividad. Indica explicitamente quien lo maneja.
+            //Las actividades son hijas de la clase context, por ello le paso el this, por el otro párametro le paso explicitamente la clase.
+            Intent intent = new Intent(this, SettingsActivity.class);
+
+            //Con esto lanzo el intent, con ello ya me carga el activity_settings.xml
+            startActivity(intent);
+
+            return true;
+
+        }
+
+        return superReturn;
+
     }
 
     public void setForecast(Forecast forecast) {

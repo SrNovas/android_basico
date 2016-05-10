@@ -8,4 +8,9 @@
     <string name="min_temp_label">Temperatura mínima: %.2f</string>
     <string name="humidity_label">Humedad: %.2f</string>
     <string name="forecast_description_label">Soleado con nubes.</string>
+    <string name="celsius_label">Unidades Celsius</string>
+    <string name="farenheit_label">Unidades Farenheit</string>
+    <string name="accept_label">Aceptar</string>
+    <string name="cancel_label">Cancelar</string>
+    <string name="settings">Ajustes</string>
 </resources>
