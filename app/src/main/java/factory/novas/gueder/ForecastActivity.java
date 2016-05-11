@@ -1,6 +1,8 @@
 package factory.novas.gueder;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
+import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -12,6 +14,9 @@ import android.widget.TextView;
 public class ForecastActivity extends AppCompatActivity {
 
     private final static int REQUEST_UNITS = 1;
+
+    //La utilizo para recuperar mis datos de mi sharepreferences como para guardarlos.
+    private static String PREFERENCE_UNITS = "units";
 
     private static final String TAG = "ForecastActivity";
 
@@ -30,8 +35,9 @@ public class ForecastActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_forecast); //Carga su interfaz de activity_forecast.
 
-        //Damos valores por defecto.
-        showCelsius = true;
+        //Cargamos los valores de la última vez (guardamos en SharedPreferences)
+        showCelsius = PreferenceManager.getDefaultSharedPreferences(this)
+                .getBoolean(PREFERENCE_UNITS, true); //True para los celsius.
 
         //Asociamos vista con controlador.
         mMaxTemp = (TextView) findViewById(R.id.max_temp);
@@ -77,6 +83,10 @@ public class ForecastActivity extends AppCompatActivity {
             //Intent crea un evento, con ello saco la actividad. Indica explicitamente quien lo maneja.
             //Las actividades son hijas de la clase context, por ello le paso el this, por el otro párametro le paso explicitamente la clase.
             Intent intent = new Intent(this, SettingsActivity.class);
+
+            //También nos sirve para mandar datos de la 1º a la 2º pantalla. Pasamos los datos a la pantalla de ajustes.
+            //Vamos a persistir el radiobutton.
+            intent.putExtra(SettingsActivity.EXTRA_CURRENT_UNITS, showCelsius);
 
             //Con esto lanzo el intent, con ello ya me carga el activity_settings.xml
             //startActivity(intent);
@@ -124,6 +134,31 @@ public class ForecastActivity extends AppCompatActivity {
                     showCelsius = false;
 
                 }
+
+                /*
+
+                //
+                //Manera 1 de guardar la configuración que seleccionamos.
+                //
+
+                //Persistimos preferencias (guardar preferencias).
+                SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
+
+                //Entramos en modo edición de preferencias.
+                SharedPreferences.Editor editor = prefs.edit();
+
+                //Guardamos los datos.
+                editor.putBoolean(PREFERENCE_UNITS, showCelsius);
+
+                //Si no lo hago, no guarda nada.
+                editor.commit();
+                */
+
+                //La otra mas común es la siguiente. Persistimos los datos de la interfaz, no los radio buttons.
+                PreferenceManager.getDefaultSharedPreferences(this)
+                        .edit()
+                        .putBoolean(PREFERENCE_UNITS, showCelsius)
+                        .commit();
 
                 //Si lo que he pedido es el cambio de unidad, y el usuario ha dicho OK, despues de ver que uidad es,
                 //refrescamos la pantalla.

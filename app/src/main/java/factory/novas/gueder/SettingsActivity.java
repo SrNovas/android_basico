@@ -9,6 +9,8 @@ import android.widget.RadioGroup;
 
 public class SettingsActivity extends AppCompatActivity {
 
+    public static final String EXTRA_CURRENT_UNITS = "current_units"; //El final indica sólo lectura.
+
     private RadioGroup mRadioGroup;
     
     @Override
@@ -35,7 +37,28 @@ public class SettingsActivity extends AppCompatActivity {
                 cancelSettings();
                 
             }
+
         });
+
+        //Indicamos que radiobutton debe de estar seleccionado inicialmente.
+        //Genera la aparición de la actividad.
+        boolean showCelsius = getIntent().getBooleanExtra(EXTRA_CURRENT_UNITS, true);
+
+        if (showCelsius) {
+
+            //El findViewById no lo he asignado a ningú radiobutton, así que:
+            RadioButton celsiusRadio = (RadioButton) findViewById(R.id.celsius_rb);
+
+            celsiusRadio.setChecked(true);
+
+        }
+        else{
+
+            RadioButton farenheitRadio = (RadioButton) findViewById(R.id.farenheit_rb);
+
+            farenheitRadio.setChecked(true);
+
+        }
         
     }
 

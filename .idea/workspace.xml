@@ -67,42 +67,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ForecastActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ForecastActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/factory/novas/gueder/ForecastActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.114285715">
-              <caret line="140" column="43" selection-start-line="140" selection-start-column="25" selection-end-line="140" selection-end-column="43" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="87" column="47" selection-start-line="87" selection-start-column="47" selection-end-line="87" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#5381#5415#0" expanded="true" />
-                <element signature="e#5467#5501#0" expanded="true" />
-                <element signature="e#5554#5588#0" expanded="true" />
+                <element signature="e#6973#7007#0" expanded="true" />
+                <element signature="e#7059#7093#0" expanded="true" />
+                <element signature="e#7146#7180#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SettingsActivity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SettingsActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/factory/novas/gueder/SettingsActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.30716723">
+              <caret line="49" column="58" selection-start-line="49" selection-start-column="58" selection-end-line="49" selection-end-column="58" />
               <folding>
-                <element signature="e#666#849#0" expanded="true" />
-                <element signature="e#848#849#0" expanded="true" />
-                <element signature="e#918#1102#0" expanded="true" />
-                <element signature="e#1101#1102#0" expanded="true" />
+                <element signature="e#769#952#0" expanded="true" />
+                <element signature="e#951#952#0" expanded="true" />
+                <element signature="e#1021#1206#0" expanded="true" />
+                <element signature="e#1205#1206#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Activity.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-N/android.jar!/android/app/Activity.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.7222222">
-              <caret line="177" column="12" selection-start-line="177" selection-start-column="12" selection-end-line="177" selection-end-column="12" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -1728,9 +1718,9 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_settings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/menu_settings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/factory/novas/gueder/SettingsActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/factory/novas/gueder/Forecast.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/factory/novas/gueder/ForecastActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/factory/novas/gueder/SettingsActivity.java" />
       </list>
     </option>
   </component>
@@ -2394,7 +2384,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3727422" sideWeight="0.5063291" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41952983" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41952983" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39963832" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -2407,7 +2397,7 @@
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922825" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24958949" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24958949" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24958949" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -2439,14 +2429,8 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/factory/novas/gueder/ForecastActivity.java</url>
-          <line>103</line>
-          <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/factory/novas/gueder/SettingsActivity.java</url>
-          <line>21</line>
+          <line>23</line>
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
@@ -2462,9 +2446,9 @@
           <caret line="127" column="13" selection-start-line="127" selection-start-column="13" selection-end-line="127" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5381#5415#0" expanded="true" />
-            <element signature="e#5467#5501#0" expanded="true" />
-            <element signature="e#5554#5588#0" expanded="true" />
+            <element signature="e#6973#7007#0" expanded="true" />
+            <element signature="e#7059#7093#0" expanded="true" />
+            <element signature="e#7146#7180#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2474,10 +2458,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding>
-            <element signature="e#666#849#0" expanded="true" />
-            <element signature="e#848#849#0" expanded="true" />
-            <element signature="e#918#1102#0" expanded="true" />
-            <element signature="e#1101#1102#0" expanded="true" />
+            <element signature="e#769#952#0" expanded="true" />
+            <element signature="e#951#952#0" expanded="true" />
+            <element signature="e#1021#1206#0" expanded="true" />
+            <element signature="e#1205#1206#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2515,9 +2499,9 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5381#5415#0" expanded="true" />
-            <element signature="e#5467#5501#0" expanded="true" />
-            <element signature="e#5554#5588#0" expanded="true" />
+            <element signature="e#6973#7007#0" expanded="true" />
+            <element signature="e#7059#7093#0" expanded="true" />
+            <element signature="e#7146#7180#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2547,9 +2531,9 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5381#5415#0" expanded="true" />
-            <element signature="e#5467#5501#0" expanded="true" />
-            <element signature="e#5554#5588#0" expanded="true" />
+            <element signature="e#6973#7007#0" expanded="true" />
+            <element signature="e#7059#7093#0" expanded="true" />
+            <element signature="e#7146#7180#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2579,9 +2563,9 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5381#5415#0" expanded="true" />
-            <element signature="e#5467#5501#0" expanded="true" />
-            <element signature="e#5554#5588#0" expanded="true" />
+            <element signature="e#6973#7007#0" expanded="true" />
+            <element signature="e#7059#7093#0" expanded="true" />
+            <element signature="e#7146#7180#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2670,9 +2654,9 @@
           <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5381#5415#0" expanded="true" />
-            <element signature="e#5467#5501#0" expanded="true" />
-            <element signature="e#5554#5588#0" expanded="true" />
+            <element signature="e#6973#7007#0" expanded="true" />
+            <element signature="e#7059#7093#0" expanded="true" />
+            <element signature="e#7146#7180#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2850,19 +2834,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/factory/novas/gueder/SettingsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding>
-            <element signature="e#666#849#0" expanded="true" />
-            <element signature="e#848#849#0" expanded="true" />
-            <element signature="e#918#1102#0" expanded="true" />
-            <element signature="e#1101#1102#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-N/android.jar!/android/app/Activity.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.7222222">
@@ -2873,13 +2844,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/factory/novas/gueder/ForecastActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.114285715">
-          <caret line="140" column="43" selection-start-line="140" selection-start-column="25" selection-end-line="140" selection-end-column="43" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="87" column="47" selection-start-line="87" selection-start-column="47" selection-end-line="87" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5381#5415#0" expanded="true" />
-            <element signature="e#5467#5501#0" expanded="true" />
-            <element signature="e#5554#5588#0" expanded="true" />
+            <element signature="e#6973#7007#0" expanded="true" />
+            <element signature="e#7059#7093#0" expanded="true" />
+            <element signature="e#7146#7180#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/factory/novas/gueder/SettingsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30716723">
+          <caret line="49" column="58" selection-start-line="49" selection-start-column="58" selection-end-line="49" selection-end-column="58" />
+          <folding>
+            <element signature="e#769#952#0" expanded="true" />
+            <element signature="e#951#952#0" expanded="true" />
+            <element signature="e#1021#1206#0" expanded="true" />
+            <element signature="e#1205#1206#0" expanded="true" />
           </folding>
         </state>
       </provider>
