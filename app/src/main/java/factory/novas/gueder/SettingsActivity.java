@@ -1,5 +1,6 @@
 package factory.novas.gueder;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -40,13 +41,25 @@ public class SettingsActivity extends AppCompatActivity {
 
     private void cancelSettings() {
 
+        //A huevo, esto es del sistema.
+        setResult(RESULT_CANCELED);
 
+        finish(); //Esto es un pop.
 
     }
 
     private void acceptSetting() {
 
+        //Creamos una especie de diccionario para comunicar 2 actividades.
+        Intent returnIntent = new Intent();
 
+        //Con los EXTRAS damos datos al intent, me invento el "units". El valor del 2º parámetro es un
+        //entero con el valor del radioButton que hemos seleccionado.
+        returnIntent.putExtra("units", mRadioGroup.getCheckedRadioButtonId());
+
+        setResult(RESULT_OK, returnIntent);
+
+        finish();
 
     }
 

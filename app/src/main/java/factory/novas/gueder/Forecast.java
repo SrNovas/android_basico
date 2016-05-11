@@ -63,7 +63,9 @@ public class Forecast {
     }
 
     public void setDescription(String description) {
+
         mDescription = description;
+
     }
 
 }
