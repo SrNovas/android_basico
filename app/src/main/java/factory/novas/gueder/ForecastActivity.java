@@ -3,6 +3,7 @@ package factory.novas.gueder;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
+import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -10,6 +11,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class ForecastActivity extends AppCompatActivity {
 
@@ -164,6 +166,14 @@ public class ForecastActivity extends AppCompatActivity {
                 //refrescamos la pantalla.
                 //Actualizamos la interfaz con las nuevas unidades.
                 setForecast(mForecast);
+
+                //Avisamos al usuario de que los ajustes han cambiado.
+                //Esto es algo prehistórico.
+                //Toast.makeText(this, "Preferencias actualizadas", Toast.LENGTH_SHORT).show();
+
+                //1º parámetro, vista (la que contiene toda mi pantalla, es un comodín) sobre la que queremos que actúe.
+                //Le digo que es el R de android, no el mío.
+                Snackbar.make(findViewById(android.R.id.content), "Preferencias actualizadas", Snackbar.LENGTH_LONG).show();
 
             }
 
